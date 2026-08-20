@@ -35,7 +35,7 @@ requires those strings, and the encoder always writes their presence bits.
 
 ```toml
 [dependencies]
-newton-manifest = { git = "https://github.com/LambdaEd1th/ed1ths-pvz-toolkit" }
+newton-manifest = { git = "https://github.com/LambdaEd1th/newton-manifest" }
 ```
 
 ## Decode and encode
@@ -112,3 +112,7 @@ counterparts with `DecodeLimits` when a valid manifest needs different limits.
 
 The `fuzz/` directory contains a `cargo-fuzz` target for both semantic and raw
 decoders.
+
+## License
+
+AGPL-3.0-or-later. See [LICENSE](LICENSE).

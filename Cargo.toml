@@ -2,7 +2,6 @@
 name = "newton-manifest"
 version = "0.1.0"
 edition = "2024"
-rust-version = "1.88"
 authors = ["ed1th"]
 categories = ["encoding", "parser-implementations"]
 keywords = ["popcap", "pvz2", "newton", "resource-manifest"]
